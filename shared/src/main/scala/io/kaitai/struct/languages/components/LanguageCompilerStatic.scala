@@ -23,7 +23,8 @@ object LanguageCompilerStatic {
     "php" -> PHPCompiler,
     "python" -> PythonCompiler,
     "ruby" -> RubyCompiler,
-    "rust" -> RustCompiler
+    "rust" -> RustCompiler,
+    "wireshark" -> WiresharkLuaCompiler
   )
 
   val CLASS_TO_NAME: Map[LanguageCompilerStatic, String] = NAME_TO_CLASS.map(_.swap)
